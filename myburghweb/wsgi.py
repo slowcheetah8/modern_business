@@ -1,5 +1,5 @@
 """
-WSGI config for modern_business project.
+WSGI config for Myburghweb project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "modern_business.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "myburghweb.settings")
 
 application = get_wsgi_application()
